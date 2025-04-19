@@ -1,0 +1,9 @@
+{
+    "name": "report-cleanup",
+    "version": "1.0.0",
+    "description": "Script to clean up old report folders",
+    "main": "delete-old-reports.js",
+    "scripts": {
+        "clean": "node delete-old-reports.js"
+    }
+}
