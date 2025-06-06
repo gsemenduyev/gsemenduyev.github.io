@@ -2,7 +2,7 @@ const fs = require("fs");
 const path = require("path");
 
 const baseDir = path.join(__dirname, "reports");
-const projects = ["AEInbox", "ARFP-Stratasphere", "ePort", "Traffic-BVT"];
+const projects = ["AEInbox", "ARFP-Stratasphere", "ePort", "Traffic-BVT", "sTraffic"];
 
 function deleteRestOfTheFolders(baseDir, projects) {
   const folderPatterns = {
